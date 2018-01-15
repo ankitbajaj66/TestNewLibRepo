@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context="com.example.admin.testreactiveprog.MainActivity">
+
+    <TextView
+        android:id="@+id/id_output_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edt_input_text"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_subscribe"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subscribe" />
+
+</LinearLayout>
